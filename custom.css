@@ -3,11 +3,16 @@ body{
     margin: 0;
     text-align: center;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    line-height: 2;
 }
 h1{
+    color: #4e6c50;
     margin:0;
     font-size: 60px;
     font-family: 'Indie Flower', cursive;
+}
+.intro,h2{
+    color: #4e6c50;
 }
 p{
     margin-top: 0;
@@ -16,18 +21,19 @@ p{
 .mountain{
     position: absolute;
     padding-bottom: 0;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    top: 48rem;
 }
 .up-cloud{
     position:absolute;
-    right: 300px;
+    right: 250px;
     top: 50px;
 }
 .down-cloud{
     position:absolute;
-    left: 300px;
-    top: 200px;
+    left: 250px;
+    top: 350px;
 }
 .intro{
     padding-top: 150px;
@@ -44,6 +50,7 @@ p{
 }
 .basic{
     background-color: #e3fdfd;
+    height: 58rem;
 }
 
 .main-body{
@@ -127,4 +134,53 @@ button{
 .bottom-background, .ending{
     background-color: #71c9ce;
     padding: 50px 0 50px 0;
+}
+.desc1{
+    width: 40%;
+    margin: 20px auto 20px;
+}
+.desc2{
+    width: 40%;
+    margin: 30px auto 50px;
+}
+.btn {
+    background: #DEF5E5;
+    background-image: -webkit-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -moz-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -ms-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -o-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: linear-gradient(to bottom, #DEF5E5, #BCEAD5);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: Arial;
+    color: gray;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: gray;
+    background: #CDFCF6;
+    background-image: -webkit-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -moz-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -ms-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -o-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: linear-gradient(to bottom, #CDFCF6, #BCCEF8);
+    text-decoration: none;
+  }
+a{
+    margin: 0 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #469e4c;
+}
+a:hover{
+    color: #BCEAD5;
+}
+.copyright{
+    color:#CDFCF6;
+    margin: 20px 0 0;
+    font-size: 1rem;
 }
